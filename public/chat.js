@@ -15,7 +15,7 @@ let chatHistory = [
   {
     role: "assistant",
     content:
-      "Hello! I'm an LLM chat app powered by Cloudflare Workers AI. How can I help you today?",
+      "Salut cu ce te ajut ??",
   },
 ];
 let isProcessing = false;
@@ -132,7 +132,7 @@ async function sendMessage() {
     console.error("Error:", error);
     addMessageToChat(
       "assistant",
-      "Sorry, there was an error processing your request.",
+      "am o erroare scz.",
     );
   } finally {
     // Hide typing indicator
